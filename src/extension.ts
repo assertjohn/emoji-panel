@@ -20,6 +20,13 @@ export function activate(context: vscode.ExtensionContext) {
 		)
 	);
 
+	// Add the command registration
+	let showCommand = vscode.commands.registerCommand('emoji-panel.show', () => {
+		vscode.commands.executeCommand('workbench.view.extension.emojipanel-sidebar-view');
+	});
+
+	context.subscriptions.push(showCommand);
+
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json

@@ -20,6 +20,9 @@ A sleek and efficient emoji picker extension for Visual Studio Code that helps y
 3. Click an emoji to copy it to your clipboard
 4. Paste the emoji wherever you need it!
 
+You can also open the panel using:
+- Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`): "Show Emoji Panel"
+
 Your recently used emojis will appear at the bottom of the panel for quick access.
 
 ## Requirements
